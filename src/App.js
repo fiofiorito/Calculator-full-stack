@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Button from './components/Button';
 import { Operator, ResetButton } from './components/Button';
 import TestInput from "./components/TestInput";
-// import Screen from './components/Screen';
+import Screen from './components/Screen';
 import './style.css'
 
 const buttonsData = [
@@ -19,7 +19,7 @@ const buttonsData = [
   { type: "button", character: "8" },
   { type: "button", character: "9" },
   { type: "operator", character: "x" },
-  { type: "reset", character: "Reset" },
+  { type: "reset", character: "=" },
   { type: "button", character: "0" },
   { type: "operator", character: "÷" }
 ]
@@ -37,9 +37,14 @@ function App() {
     )
   }, []);
 
+  const [result, setResult] = useState("Hello");
+
+
   return <div className='layout-div'>
-    {/* <Screen result={Aca necesitamos los numbers de testinput}/> */}
-    <TestInput />
+    <Screen result={() => {
+      const logged = buttonsData.character;
+      setResult(logged);
+    }} />
     <div className='calculator-div'>
       {buttonsData.map((button, index) => {
         switch (button.type) {
