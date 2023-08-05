@@ -1,7 +1,9 @@
 
 function Screen(props) {
     return <div className="screen-div">
-        <h1>{props.result}</h1>
+        <div className="inner-screen-div">
+            <h1>{props.expression}</h1>
+        </div>
     </div>
 }
 

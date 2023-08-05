@@ -32,6 +32,15 @@ p {
     padding: 1.25rem;
     font-size: 1rem;
     text-align: right;
+    overflow: hidden;
+    direction: rtl;
+    height: 2rem;
+}
+
+.inner-screen-div {
+    white-space: nowrap;
+    direction: ltr;
+    display: inline-block;
 }
 
 .calculator-div {
