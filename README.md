@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+# First iFio Full-Stack WebApp - Calculator 
+I am happy to announce that I have completed my first ever full stack project using React + NodeJS!! 
+It has been a journey filled with ups and downs, a lot of learning involved as well. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How to use
+Just click the number, then your desired operator and then the equals sign to get your result displayed on the calc screen!
 
-## Available Scripts
+## My why
+I decided to take on this project because 1. I wanted to build a calculator since I started coding 6 months ago and 2. I had one question in mind after finishing the full stack web dev course I took: "Can I make a full stack web app using React and NodeJS?" And sure thing, with a little bit of research I discovered I could! And that's when I said well I think its time to challenge myself with the calculator web app 😀
 
-In the project directory, you can run:
+## Struggles & Learnings
+- I had to learn how to create a full stack web app with react and node
+- Learned about fetching an API
+- Thought I needed to use body-parser to pass the data the user inputs when clicking the buttons to the server and then return an answer, turns out I don't so everything is done on the frontend side of the app
+- Realized I needed event listeners so I had to deepen my knowledge of react hooks and the onClick property
+- Struggled to "communicate" the button component with the screen component so that the data passed from the button would be displayed on the calc screen 
+- Realized I needed to add a callback function inside the App component and then add that as a custom property to my 2 custom components
+- Now it's time for deployment, as this is my first project with react and nodejs, if you are reading this, then the app is most definitely deployed!!
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Remember, nothing is impossible and if your mind can think of it, then you can probably code it 😉 It's just a matter of not giving up when you don't know something, just keep going, learning is always the solution!!
